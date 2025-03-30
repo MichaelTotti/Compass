@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Compass®</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    <script src='./index.js'></script>
+</head>
+<body>
+    <div id="topBar" >
+            <img id="compassLogo" src="./compassIcon.png" alt="Compass Logo" onclick="location.reload();">
+            <h3 onclick="location.reload();">Compass®</h3>
+    </div>
+    <div id="mainBody">
+        <div id="welcome" class="welcomeCl">
+            <h1>Compass®</h1>
+            <h4>Financial growth, together</h4>
+            <p id="welcomeText">Your tool for smarter crypto investing</p>
+        </div>
+        <div id="navBar" class="navBarCl">
+                <p>SYM</p>
+                <p>SYM</p>
+                <p>SYM</p>
+                <p>SYM</p>
+                <p>SYM</p>
+                <p>SYM</p>
+                <p>SYM</p>
+                <p>SYM</p>
+                <p>SYM</p>
+                <p>SYM</p>
+        </div>
+        <div id="assetContent">
+            <div id="assetInfo">
+                <div id="interact">
+                    <div class="interactCl">
+                        <img id="assetImage" src="./questionMark.png" alt="Asset Image" class="assetImage">
+                    </div>
+                    <div id="assetOverview">
+                        <div id="overview" class="overviewCl">
+                            <h1 id="assetName">Select an Asset</h1>
+                            <p id="assetSymbol">Asset Symbol</p>
+                            <p>Invest with one of our partners:</p>
+                        </div>
+                        <div id="actionButtons">
+                            <button id="tradeNation" class="actionButtonsCl" onclick=" window.open('https://tradenation.com')"><img src="https://resources.tradenation.com/images/TN-logo-250x42.png" alt="TradeNation"/></button>
+                            <button id="iqOption" class="actionButtonsCl" onclick=" window.open('https://iqoption.com/')"><img src="https://cdn.brandfetch.io/id3ilmKCf5/w/102/h/102/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B" alt="TradeNation"/></button>
+                            <button id="plus500" class="actionButtonsCl" onclick=" window.open('https://www.plus500.com/en/')"><img src="https://cdn.brandfetch.io/id8pRpvmA9/w/600/h/149/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B" alt="TradeNation"/></button>
+                            <button id="eToro" class="actionButtonsCl" onclick=" window.open('https://www.etoro.com/')"><img src="https://cdn.brandfetch.io/idCL5_YhIb/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="eToro"/></button>
+                        </div>
+                    </div>
+                </div>
+                    <div id="Paragraph">
+                        <h2>Asset Description</h2>
+                        <p id="assetSymbol2">
+                            <p></p>
+                        </p>
+                        <p id="assetDescription">?</p>
+                    </div>
+            </div>
+            <div id="databar">
+                <h1>Asset Data</h1>
+                <table>
+                    <tr>
+                        <td><h2>Price:</h2></td>
+                        <td id="price">Asset Price</td>
+                    </tr>
+                    <tr>
+                        <td><h2>Volume:</h2></td>
+                        <td id="volume">Asset Volume</td>
+                    </tr>
+                    <tr>
+                        <td><h2>Market Cap:</h2></td>
+                        <td id="marketCap">Asset Market Cap</td>
+                    </tr>
+                    <tr>
+                        <td><h2>Change:</h2></td>
+                        <td id="change">Asset Change</td>
+                    </tr>
+                    <tr>
+                        <td><h2>Change %:</h2></td>
+                        <td id="change%">Asset Change (%)</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+<script src='./index.js'></script>
+</html>
