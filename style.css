@@ -39,7 +39,7 @@
     height: 950px;
     justify-content: center;
     align-items: center;
-    background-image: url('background.jpg');
+    background-image: url('/otherImages/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     color: #ffffff;

@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Function to change the logo to compassLight.png
     function changeLogo() {
         if (compassLogo) {
-            compassLogo.src = './compassLight.png';
+            compassLogo.src = '/otherImages/compassLight.png';
         } else {
             console.error("Element with ID 'compassLogo' not found.");
         }
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Function to revert the logo back to compassIcon.png
     function changeLogoback() {
         if (compassLogo) {
-            compassLogo.src = './compassIcon.png';
+            compassLogo.src = '/otherImages/compassIcon.png';
         } else {
             console.error("Element with ID 'compassLogo' not found.");
         }
